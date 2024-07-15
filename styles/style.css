@@ -3,7 +3,7 @@
 :root {
     --cor-primaria: #2C3333;
     --cor-secundaria: #E7F6F2;
-    --cor-terciaria: #A5C9CA;
+    --cor-terciaria: #6ea5a7;
     --cor-hover: #395B64;
 
     --fonte-primaria: "Krona One", sans-serif;
@@ -118,6 +118,14 @@ body{
 .image {
     max-width: 60%;
     border-radius: 15px;
+}
+
+.cabecalho__menu__link:hover{
+    color: var(--cor-hover);
+}
+
+.apresentacao__links__navegacao:hover{
+    background-color: var(--cor-terciaria);
 }
 
 @media (max-width: 1228px){
